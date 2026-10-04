@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="CatalogoJogos/CatalogoJogos.csproj" Id="c198391a-f24b-4600-bd6f-d39b24c2ce19" />
+  <Project Path="desafio-3/desafio-3.csproj" Id="b8c467b2-e37b-41a6-bd77-42666c3ea20d" />
+  <Project Path="desafio01/desafio01.csproj" />
+  <Project Path="Restaurante/Restaurante.csproj" Id="c0b04714-d6ea-4453-b267-840bce59470e" />
+  <Project Path="SistemaEscola/SistemaEscola.csproj" Id="6f78f1a0-eab5-4060-a1a9-e981708a3eeb" />
+</Solution>

@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="../Desafios/Desafio_Livro.csproj" />
+  <Project Path="../Desafios_Todos/Desafio_Conta_bancaria/Desafio_Conta_bancaria.csproj" />
+  <Project Path="../Desafios_Todos/desafio_controle_estoque/desafio_controle_estoque.csproj" Id="1a371aac-a8be-4054-838a-13292857995c" />
+  <Project Path="../Desafios_Todos/Desafio_emissao_passagem/Desafio_emissao_passagem.csproj" />
+  <Project Path="../Desafios_Todos/desafio_gerenciamento_funcionario/desafio_gerenciamento_funcionario.csproj" Id="59a6e5e3-00ba-4b7d-857a-f6d95f781287" />
+  <Project Path="../Desafios_Todos/desafio_informacoes_tecnicas/desafio_informacoes_tecnicas.csproj" Id="0632efb9-e087-49ea-a3cd-84d05043bcfe" />
+  <Project Path="../Desafios_Todos/desafio_reagendamento/desafio_reagendamento.csproj" Id="be83a767-9ba7-4d7a-a395-c069a1991244" />
+  <Project Path="../desafio_validacao_acesso/desafio_validacao_acesso.csproj" Id="59b19a6f-8586-41f9-a765-25fcd5026b3b" />
+  <Project Path="02_POO_com_classes.csproj" />
+</Solution>

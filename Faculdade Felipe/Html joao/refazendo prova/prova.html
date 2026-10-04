@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = 'pt-BR'>
+<head>
+	<meta charset = 'UTF-8'>
+	<meta name = 'viewport' content = 'width=device-width, initial-scale=1.0'>
+	<title>Prova João</title>
+	<link rel= 'stylesheet' href = 'css_prova.css'>
+</head>
+<body>
+	<h1>Prova 1 - Turma A - 2o período</h1>
+	<p>Crie também o enunciado da prova em html</p>
+	<h2>Exercício 1: Criando uma Tabela de Catálogo de Livros</h2>
+	<p><strong>Objetivo:</strong> Criar uma tabela de catálogo de livros com 5 gêneros e 4 autores diferentes.</p>
+	<ol>
+		<li>Crie um arquivo HTML básico com a estrutura completa (doctype, html, head, body)</li>
+		<li>Adicione um título "Catálogo de Livros" usando a tag h1</li>
+		<li>Crie uma tabela usando as tags de tabela</li>
+		<li>A primeira linha deve conter cabeçalhos com os gêneros literários</li>
+		<li>A primeira coluna deve conter os nomes dos autores</li>
+		<li>Preencha a tabela com títulos de livros de sua escolha</li>
+	</ol>
+	<br>
+	<h2> Exercício 2: Estilizando o Catálogo</h2>
+	<p><strong> Objetivo:</strong> Aplicar cores e bordas à tabela criada no exercício 1.</p>
+	<ol>
+		<li> Use o CSS para colorir:</li>
+		<ul>
+			<li> O cabeçalho da tabela com a cor "#DDDDDD"</li>
+			<li>Células de Ficção com a cor "#FFB6C1" (rosa claro)</li>
+			<li>Células de Não-Ficção com a cor "#B0E0E6" (azul claro)</li>
+			<li>Células de Literatura Infantil com a cor "#FAFAD2" (amarelo claro)</li>
+		</ul>
+		<li>Inclua 8px de espaçamento interno para melhorar o espaçamento</li>
+		<li>Crie divs com cantos arredondados (border-radius) para exibir informações sobre cada gênero literário</li>
+		<li>Deixe a página o mais próximo possível dessa prova e imagem</li>
+	</ol>
+	<br>
+
+
+
+		<div id='tudo'>
+		<h1>Catálogo de livros</h1>
+		<table border = '1'>
+			<tr class = 'cabeçalho'>
+				<th>Autor/Gênero</th>
+				<th>Ficção</th>
+				<th> Não-Ficção</th>
+				<th> Infantil</th>
+				<th> Poesia</th>
+				<th> Mistério</th>
+			</tr>
+			<tr>
+				<td> Autor A</td>
+				<td class ='fic'>O Viajante</td>
+				<td class='nao_fic'> História do Mundo</td>
+				<td class='infantil'>Aventuras de Tim</td>
+				<td class='poesia'> Versos da Noite
+ Mistério
+</td>
+				<td class='misterio'>O Caso Perdido</td>
+			</tr>
+			<tr>
+				<td> Autor B</td>
+				<td class ='fic'>Além do Horizonte</td>
+				<td class='nao_fic'>Ciência Moderna</td>
+				<td class='infantil'>O Dragão Amigo</td>
+				<td class='poesia'>Canções de Amor</td>
+				<td class='misterio'>Segredos Ocultos</td>
+			</tr>
+			<tr>
+				<td> Autor B</td>
+				<td class ='fic'>Mundos Paralelos</td>
+				<td class='nao_fic'> Biografias Célebres</td>
+				<td class='infantil'> Nina e o Mar</td>
+				<td class='poesia'>Suspiros e Sonhos</td>
+				<td class='misterio'> Enigma da Torre</td>
+			</tr>
+			<tr>
+				<td>Autor D</td>
+				<td class ='fic'> A Última Porta </td>
+				<td class='nao_fic'>Filosofia Prática</td>
+				<td class='infantil'>Pequeno Príncipe</td>
+				<td class='poesia'>Poemas do Céu</td>
+				<td class='misterio'>Mistério no Trem</td>
+			</tr>
+		</table>
+		<h3>Ficção</h3>
+		<p>Os livros de ficção incluem romances, contos e histórios de fantasia</p>
+		<ul>
+			<li>Romances contemporâneos</li>
+			<li>Ficção científica</li>
+			<li>Fantasia</li>
+		</ul>
+	</div>
+</body>
+</html>

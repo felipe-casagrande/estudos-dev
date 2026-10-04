@@ -1,0 +1,42 @@
+.cabeçalho{
+	background-color:#CCCCCC;
+}
+.pt{
+	background-color:#FFD700;
+}
+.mat{
+	background-color:#ADD8E6;
+}
+.ciencia{
+	background-color:#90EE90;
+}
+table{
+	width:80%;
+	text-align:center;
+	margin: 20px auto;
+	
+}
+#tudo{
+	background-color:lightgray;
+	padding-top:8px;
+	margin-top:20px;
+	margin-left:60px;
+	margin-right:60px;
+	border-radius:5px;
+	padding-bottom:5px;
+	padding-left:10px
+}
+#tudo h2{
+	background-color:green;
+	color:white;
+	text-align:center;
+	border-radius:5px;
+	margin-right:10px
+	
+}
+h2{
+	text-align:center
+}
+#tudo p{
+	text-align:center;
+}

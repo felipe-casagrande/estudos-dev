@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../desafio/desafio1.csproj" />
+  <Project Path="../desafio2/desafio2.csproj" />
+  <Project Path="../desafio3/desafio3.csproj" />
+  <Project Path="Aula.csproj" />
+</Solution>

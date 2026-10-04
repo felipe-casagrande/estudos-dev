@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../desafios/desafio_interface/desafio_interface.csproj" Id="b817e5fe-ae16-435f-bc20-456122f261a7" />
+  <Project Path="ScreenSound.csproj" />
+</Solution>

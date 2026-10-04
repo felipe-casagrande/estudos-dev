@@ -1,0 +1,2 @@
+def moeda():
+    return None

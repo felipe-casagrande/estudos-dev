@@ -1,0 +1,4 @@
+Porque não posso fazer direto, tipo int soma += v, tenho que criar a variável soma antes.
+Se usa static para quando quero separar propriedades que quero que sejam da classe e nao da instancia e tambem serve para nao deixar a classe ter instancias com o new
+virtual - classe pai 
+override - classe filho

@@ -1,0 +1,1 @@
+Boa noite, não sabia se era pra fazer da forma mais simples possível ou pra elaborar com criatividade, entao fiz os dois, na segunda fiz um arquivo onde pode inserir o tamanho da lista e digitar os números manualmente a cada run e mostrar a lista antes de estar invertida e depois. Fiz com base com o que o senhor passou e algumas modificações, abraço!

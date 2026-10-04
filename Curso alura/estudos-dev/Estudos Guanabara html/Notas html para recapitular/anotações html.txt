@@ -1,0 +1,125 @@
+mudar cor : <span style= 'color: nome dar cor ;'> Texto com a cor </span>
+<s>- riscar a palavra no meio </s> forma não semântica
+	forma semântica seria usar o <del>	
+<u> sublinhar </u> - forma não semântica
+	<ins> forma semântica de sublinhar
+
+negrito - tag <b> ou <strong>, usar Strong pois é uma forma mais semântica
+Italico - ctrl + shift + p, seleciona o abb e digita a tag, no caso para itálico uso o I ( não semântica), EM (forma semântica)
+
+evitar usar o I e B, usar o Strong e EM
+
+
+listas ordenada começando em 50 e mudando pra romano por ex: <ol type='I' start= '50'>   </ol>
+lista de definição- dt e dd
+
+colocar ícone na pagina: link:favicon e muda o parâmetro href com o caminho do ícone
+
+mudar cor de fundo: <style> body{background color- escolhe a cor } </style>, dentro de head
+
+address - A tag <address> em HTML é usada para indicar informações de contato do autor ou proprietário de um documento ou artigo - fica em itálico basicamente
+
+marcar texto - <mark>, posso fazer <mark style = 'nome dar cor'> para mudar a cor da marcação
+para todos os marks ter a mesma cor:
+<style>
+	mark{
+		backgroundcolor}
+
+</style}
+
+ 					COMANDOS
+ctrl + espaço para mostrar item que posso colocar no parâmetro, como em ícone e imagens, se eu precisar voltar a pasta, escrevo ../ que vai mostrar os itens da pasta anterior
+shift + tab - Já selecionado, da esse comando para recuar o código, meio que o tab invertido, invés de ir pra frente vai pra trás
+strong - Negrito
+del - risco no meio
+ins - sublinhado
+em - italico
+small - deixar a letra pequena
+big -  deixa grande
+sup - texto sobrescrito, fica em cima da linha
+sub- texto subscrito, fica em baixo da linha
+abbr - caixinha com o significado completo ao passar o mouse em cima
+background-image: url(nome da imagem);
+img
+Picture - botar imagens, usar a tag img e a tag source dentro dela
+source media type
+mark - marcação
+q - citação simples
+blackquote - citação grande
+a - ancora, dentro da tag a digitar o texto que vai ser clicavel, no parâmetro href colocar o link do destino ao clicar no texto.
+table - tabela, tr(linha), th(tópico, coluna), td(dados da tabela)
+------------------------------------------------------------  ----------------------------------------------------------------
+			citaçoes
+q - citações simples, bota aspas basicamente
+blackquote - Uma citação grande, tem quebra de linha, deslocamento
+--------	------------------------------------------------------------------------------------------------------------	
+code - deixar a fonte mono espaçada, deixar com mais espaço, melhora a leitura de códigos por exemplo.		
+pre - manter as identações,vai considerar os espaços, quebra de linha, tudo. exemplo:
+<pre>
+        <code>
+            num = int(input('digite um numero: '))
+            if num % 2 == 0:
+                print(f'O numero {num} é PAR)
+            else:
+                print(f'O número {num} é IMPAR)
+            print('Fim do programa')
+        </code>
+    </pre>
+-----------------------------------------------------------------------------------------------------------------------
+abbr - abreviações, sabe quando você coloca o mouse em cima de um palavra, sigla, e vem uma caixinha mostrando ela por inteira,o significado, é isso.
+
+
+links externos
+exemplo: <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel='external'>repositorio público do github</a></p>
+o texto que vc vai clicar e abrir o link fica entre a tag A, use o parâmetro target='_blank' para quando clicar, abrir outra aba e não fechar a atual.
+parâmetro rel='next' para indicar a próxima pagina, e rel='prev' para indicar que esta voltando uma pagina, exemplo:  
+<p>Esta é a primeira pagina do site. Se voce quiser, pode acessar tambem a minha <a href="pag002.html" rel="next">segunda pagina</a></p>
+
+download de links - usamos o parâmetro download='caminho do arquivo' e o type='application/'tipo do arquivo', e no parâmetro href também colocar o caminho do arquivo.
+
+
+			imagens
+<picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+basicamente- ele vai abrir a a imagem do img, mas caso a tela for menor, tenho a opção com source pra verificar a tela e ir adaptando pelos tamanhos, o source seria meio que um if tamanho da dela < 1000: abrir a imagem do source
+tem q ser na ordem, a grande por ultimo, depois vem a media e primeiro a pequena
+seria- 
+picture>
+source da pequena
+source da media
+img da grande
+
+
+		links
+
+target='_blank' = ao passar esse parâmetro, quando abrir clicar no link ele ira abrir outra pagina
+target='_self' = Ao clicar no link a pagina vai ser atualizada para a próxima, sem abrir outra.
+rel='external' = Você esta passando que o link é externo.
+rel='next' = indica que ao clicar você vai pra pagina seguinte, exemplo: você esta na pagina 1 do livro , se clicar vai pra pagina 2.
+rel='prev' = indica que ao clicar você vai voltar a pagina, exemplo: você esta na pagina 2 do livro, se clicar vai pra pagina 1
+
+tabelas
+dentro do th ou do td tem parametros para estilizar
+rowspan - quebrar linhas
+colspan - quebrar colunas
+width = 'valor %' - aumentar o tamanho da caixa lateralmente
+style='heigth:valor px;' - aumentar o tamanho da caixa vertical
+no tr pode passar o paramentro align, ou seja, alinhar
+align=' left' , 'center' ou 'right'  
+
+
+CSS
+posso criar uma classe mudando a cor, crio uma varaivel global style e toda vez que eu queira usar a cor, colocar no parâmetro da tag que quero, exemplo:
+<style>
+	.roxo{
+		color:purple;
+	}
+	</style>
+isso para criar, agora para usar:
+<li> <a href='#reserva' class='roxo'>Faça sua Reserva</a></li>
+uso o parâmetro class = 'nome da classe que criei'
+

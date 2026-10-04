@@ -1,0 +1,1 @@
+Porque não posso fazer direto, tipo int soma += v, tenho que criar a variável soma antes.
