@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="AcessoRestrito/AcessoRestrito.csproj" />
-  <Project Path="ClassificacaoProdutos/ClassificacaoProdutos.csproj" />
-  <Project Path="ClassificandoNota/ClassificandoNota.csproj" />
-  <Project Path="faixaEtaria/faixaEtaria.csproj" />
-  <Project Path="saldoConta/saldoConta.csproj" />
-</Solution>

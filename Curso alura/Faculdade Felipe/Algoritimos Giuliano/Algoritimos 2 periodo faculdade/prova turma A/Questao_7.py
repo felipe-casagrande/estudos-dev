@@ -1,2 +1,0 @@
-# o algoritimo em questao é o bublle sort
-#ele ordena verificando de par em par, a cada for externo ele vai mandando o maior para o final da lista. E  o for interno vai fazendo as comparações e fazendo as trocas caso necessario. Na primeira o maior vai para a ultima posição, na segunda passada o segundo maior vai para penultima, e assim vai ate o final

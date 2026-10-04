@@ -1,3 +1,0 @@
-vito;220;sada;5.0
-felipe;10;asas;20.0
-pl;100;asas;30.0
