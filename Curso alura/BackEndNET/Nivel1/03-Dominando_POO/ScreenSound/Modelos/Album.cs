@@ -1,4 +1,4 @@
-﻿namespace ScreenSound.Modelos;
+﻿ namespace ScreenSound.Modelos;
 
 internal class Album : IAvaliavel
 {
@@ -27,9 +27,11 @@ internal class Album : IAvaliavel
         musicas.Add(musica);
     }
 
-    public void AdicionarNota(Avaliacao nota)
+    public void AdicionarNota(int nota)
     {
-        notas.Add(nota);
+        var avaliacao = new Avaliacao(nota);
+        notas.Add(avaliacao);
+        //notas.Add(new Avaliacao(nota)); 
     }
 
     public void ExibirMusicasDoAlbum()

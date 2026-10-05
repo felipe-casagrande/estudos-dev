@@ -33,9 +33,11 @@ internal class Banda : IAvaliavel
         albuns.Add(album);
     }
 
-    public void AdicionarNota(Avaliacao nota)
+    public void AdicionarNota(int nota)
     {
-        notas.Add(nota);
+        var avaliacao = new Avaliacao(nota);
+        notas.Add(avaliacao);
+        //notas.Add(new Avaliacao(nota)); 
     }
 
     public void ExibirDiscografia()
@@ -47,3 +49,4 @@ internal class Banda : IAvaliavel
         }
     }
 } 
+

@@ -1,20 +1,20 @@
 ﻿using ScreenSound.Modelos;
+using ScreenSound.Repositories;
 namespace ScreenSound.Menus;
 
 internal class MenuMostrarBandas : Menu
 {
-    public override void Executar(Dictionary<string, Banda> bandasRegistradas)
+    public override void Executar()
     {
-        base.Executar(bandasRegistradas);
+        LimparTela();
         ExibirTituloDaOpcao("Exibindo todas as bandas registradas na nossa aplicação");
 
-        foreach (string banda in bandasRegistradas.Keys)
-        {
-            Console.WriteLine($"Banda: {banda}");
-        }
+        foreach (var banda in BandaRepository.Bandas)
+            Console.WriteLine($"Banda: {banda.Nome}");
+        
 
         Console.WriteLine("\nDigite uma tecla para voltar ao menu principal");
         Console.ReadKey();
-        Console.Clear();
+        LimparTela();
     }
 }

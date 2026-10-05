@@ -1,13 +1,8 @@
 ﻿using ScreenSound.Menus;
-using ScreenSound.Modelos;
-Banda ira = new Banda("Ira!");
-ira.AdicionarNota(new Avaliacao(10));
-ira.AdicionarNota(new Avaliacao(8));
-ira.AdicionarNota(new Avaliacao(6));
-Banda beatles = new("The Beatles");
-Dictionary<string, Banda> bandasRegistradas = new();
-bandasRegistradas.Add(ira.Nome, ira);
-bandasRegistradas.Add(beatles.Nome, beatles);
+using ScreenSound.Seed;
+
+var bandas = Seed.GetBandas();
+
 Dictionary<int, Menu> opcoes = new();
 opcoes.Add(1, new MenuRegistrarBanda1());
 opcoes.Add(2, new MenuRegistrarAlbum()); 
@@ -29,14 +24,7 @@ void ExibirLogo()
 ");
     Console.WriteLine("Boas vindas ao Screen Sound 2.0!");
 }
-void ExibirTituloDaOpcao(string titulo)
-{
-    int quantidadeDeLetras = titulo.Length;
-    string asteriscos = string.Empty.PadLeft(quantidadeDeLetras, '*');
-    Console.WriteLine(asteriscos);
-    Console.WriteLine(titulo);
-    Console.WriteLine(asteriscos + "\n");
-}
+
 void ExibirOpcoesDoMenu()
 {
     ExibirLogo();
@@ -55,7 +43,7 @@ void ExibirOpcoesDoMenu()
     if (opcoes.ContainsKey(opcaoEscolhidaNumerica))
     {
         Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
-        menuASerExibido.Executar(bandasRegistradas);
+        menuASerExibido.Executar();
         if (opcaoEscolhidaNumerica > 0)
         {
             ExibirOpcoesDoMenu();
@@ -69,3 +57,5 @@ void ExibirOpcoesDoMenu()
 }
 
 ExibirOpcoesDoMenu();
+
+
