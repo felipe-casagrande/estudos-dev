@@ -1,7 +1,11 @@
 <Solution>
-  <Project Path="../desafio/desafio1.csproj" />
-  <Project Path="../desafio2/desafio2.csproj" />
-  <Project Path="../desafio3/desafio3.csproj" />
-  <Project Path="../desafio_genero_musical/desafio_genero_musical.csproj" Id="fe554bd3-a3d7-4b8b-9095-546a16e2eee9" />
+  <Folder Name="/Todos Desafios/">
+    <Project Path="../desafio/desafio1.csproj" />
+    <Project Path="../desafio2/desafio2.csproj" />
+    <Project Path="../desafio3/desafio3.csproj" />
+    <Project Path="../desafio5/desafio5.csproj" Id="c0372d0a-afd9-48d6-880a-d1b282afe440" />
+    <Project Path="../desafio_4/desafio_4.csproj" Id="8c5e5838-367e-406c-9871-a25086a3f1c1" />
+    <Project Path="../desafio_genero_musical/desafio_genero_musical.csproj" Id="fe554bd3-a3d7-4b8b-9095-546a16e2eee9" />
+  </Folder>
   <Project Path="Aula.csproj" />
 </Solution>
